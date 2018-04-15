@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/FBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="28dp"
+            android:text="DALGALAR" />
+
+        <Button
+            android:id="@+id/FBTN2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/FBTN"
+            android:layout_alignBottom="@+id/FBTN"
+            android:layout_centerHorizontal="true"
+            android:text="OPTİK" />
+
+        <Button
+            android:id="@+id/FBTN3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/FBTN"
+            android:layout_marginTop="22dp"
+            android:text="ENERJİ" />
+
+        <Button
+            android:id="@+id/FBTN4"
+            android:layout_width="100dp"
+            android:layout_height="55dp"
+            android:layout_alignTop="@+id/FBTN2"
+            android:text="DALGA  MEKANİĞİ" />
+
+        <Button
+            android:id="@+id/FBTN5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/FBTN3"
+            android:layout_alignBottom="@+id/FBTN3"
+            android:text="MODERN.F" />
+
+        <Button
+            android:id="@+id/FBTN6"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/FBTN5"
+            android:text="HAREKET VE KUVVET" />
+
+        <TextView
+            android:id="@+id/FTXT"
+            android:layout_width="600dp"
+            android:layout_height="340dp"
+            android:layout_alignParentBottom="true"
+           />
+
+    </RelativeLayout>
+</LinearLayout>

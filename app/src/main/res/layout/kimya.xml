@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <Button
+        android:id="@+id/KBTN"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="ASİT ,BAZ VE TUZ" />
+
+    <Button
+        android:id="@+id/KBNT2"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/KBTN"
+        android:layout_alignBottom="@+id/KBTN"
+        android:text="MADDENİN HALLERİ" />
+
+    <Button
+        android:id="@+id/KBTN3"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/KBTN"
+        android:layout_centerHorizontal="true"
+        android:text="ATOM VE PERİYODİK  S" />
+
+    <Button
+        android:id="@+id/KBTN4"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/KBTN6"
+        android:layout_alignBottom="@+id/KBTN6"
+        android:text="KARBON KİMYASI" />
+
+    <Button
+        android:id="@+id/KBTN5"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignBaseline="@+id/KBTN6"
+        android:layout_alignBottom="@+id/KBTN6"
+        android:text="KİMYA VE ENERJİ" />
+
+    <Button
+        android:id="@+id/KBTN6"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/KBTN3"
+        android:layout_marginTop="16dp"
+        android:text="KİMYA VE ELEKTRİK" />
+
+    <TextView
+        android:id="@+id/KTXT"
+        android:layout_width="320dp"
+        android:layout_height="340dp"
+        android:layout_alignParentBottom="true"
+        android:text="TextView" />
+
+
+
+
+
+    </RelativeLayout>
+</LinearLayout>

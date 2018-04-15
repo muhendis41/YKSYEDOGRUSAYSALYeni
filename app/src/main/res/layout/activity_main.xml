@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.ozgur.yksyedogrusaysal.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <RelativeLayout
+
+        android:layout_width="387dp"
+        android:layout_height="524dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+        <Button
+            android:id="@+id/BTN1"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:layout_alignEnd="@+id/FBTN4"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/FBTN4"
+            android:layout_marginTop="30dp"
+            android:text="MATEMATİK" />
+
+        <Button
+            android:id="@+id/FBTN2"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/BTN1"
+            android:layout_marginLeft="47dp"
+            android:layout_marginStart="47dp"
+            android:layout_marginTop="60dp"
+            android:text="BİYOLOJİ" />
+
+        <Button
+            android:id="@+id/FBTN3"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignBaseline="@+id/BTN1"
+            android:layout_alignBottom="@+id/BTN1"
+            android:layout_alignLeft="@+id/FBTN2"
+            android:layout_alignStart="@+id/FBTN2"
+            android:text="FİZİK" />
+
+        <Button
+            android:id="@+id/FBTN4"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_alignBaseline="@+id/FBTN2"
+            android:layout_alignBottom="@+id/FBTN2"
+            android:layout_alignEnd="@+id/FBTN5"
+            android:layout_alignRight="@+id/FBTN5"
+            android:text="KİMYA" />
+
+        <Button
+            android:id="@+id/FBTN5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/FBTN4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="107dp"
+            android:text="HAKKIMDA" />
+
+
+    </RelativeLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <Button
+            android:id="@+id/BTNB1"
+            android:layout_width="145dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="18dp"
+            android:text="FOTOSENTEZ" />
+
+        <Button
+            android:id="@+id/BNTB2"
+            android:layout_width="145dp"
+            android:layout_height="50dp"
+            android:layout_alignBaseline="@+id/BTNB1"
+            android:layout_alignBottom="@+id/BTNB1"
+            android:layout_alignLeft="@+id/BTNB4"
+            android:layout_alignStart="@+id/BTNB4"
+            android:text="HÜCRE" />
+
+        <Button
+            android:id="@+id/BTNB3"
+            android:layout_width="145dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/BTNB1"
+            android:layout_marginTop="27dp"
+            android:text="ENZİMLER" />
+
+        <Button
+            android:id="@+id/BTNB4"
+            android:layout_width="145dp"
+            android:layout_height="60dp"
+            android:layout_alignBottom="@+id/BTNB3"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="29dp"
+            android:layout_marginRight="29dp"
+            android:text="CİNSİYETE BAĞLI KALITIM" />
+
+        <TextView
+            android:id="@+id/TXT1"
+            android:layout_width="500dp"
+            android:layout_height="345dp"
+            android:layout_alignParentBottom="true"
+           />
+
+    </RelativeLayout>
+</LinearLayout>
+

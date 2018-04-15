@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ozgur.yksyedogrusaysal"
+    >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tasarim2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".acilisekranim"
+            android:label="@string/app_name">>
+            <intent-filter>
+                <action android:name="android.intent.action.ACİLİSEKRANİM" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    <activity android:name=".biyoloji">
+        <intent-filter>
+
+            <action android:name="android.intent.action.BİYOLOJİ" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+<activity android:name=".fizik">
+    <intent-filter>
+    <action android:name="android.intent.action.FİZİK" />
+
+    <category android:name="android.intent.category.DEFAULT" />
+    </intent-filter>
+</activity>
+
+<activity android:name=".kimya">
+    <intent-filter>
+
+    <action android:name="android.intent.action.KİMYA" />
+
+    <category android:name="android.intent.category.DEFAULT" />
+    </intent-filter>
+
+</activity>
+
+<activity android:name=".matematik">
+    <intent-filter>
+
+    <action android:name="android.intent.action.MATEMATİK" />
+
+    <category android:name="android.intent.category.DEFAULT" />
+    </intent-filter>
+</activity>
+        <activity android:name=".hakkimda">
+            <intent-filter>
+
+                <action android:name="android.intent.action.HAKKİMDA" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
